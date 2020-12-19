@@ -27,7 +27,7 @@ const AboutPage = ({ data, ...props }) => {
 
       <article className="post-content page-template no-image">
         <div style={{ textAlign: "center" }}>
-          <img src="./logo.png" height="150px" alt="Logo" />
+          <img src="/logo.png" height="150px" alt="Logo" />
         </div>
         <div className="post-content-body">
           <div style={{ textAlign: "center" }}>
