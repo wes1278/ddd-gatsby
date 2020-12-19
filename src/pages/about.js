@@ -29,26 +29,21 @@ const AboutPage = ({ data, ...props }) => {
             About Us
           </h2>
           <p>
-            At Dewey Door Doctor I demand quality work out of my fellow
-            craftsman. I do not set deadlines so that they have the time to do
-            it correctly the first time. With this policy and the use of
-            laminated stiles and rails, full 2” mortise and tennon joinery, we
-            at Dewey Door Doctor can guarantee our doors for life. When the Lord
-            takes me home, you're on your own. You can be assured that I will
-            personally stand behind any Dewey Door Doctor product.
+            I have been a carpenter for over 35 years. I was trained by a German
+            craftsman that always taught me to take the time to do things
+            correctly the first time. Doing anything twice is a waste of time
+            and material.
           </p>
+
           <p>
             Over the years, we have grown into a full service custom shop that
             loves to help individual clients fulfill their dreams. Our specialty
             is completing the job that no one else thinks can be done. Ranging
             from 7' wide to 13' tall custom doors, we love to exceed your
-            expectations when it comes to building your dream entry-way! We also
-            offer a full range of custom carving, stain glass and inlaid
-            metals.We build it the right way the first time and that is why we
-            guarantee our work for life. Well, actually, my life. When the Lord
-            takes me home, you are on you own.Please feel free to contact me and
-            we can talk about your dream door. I am more than confident we can
-            help.
+            expectations when it comes to building the perfect entryway. We also
+            offer a full range of custom carving, stained glass and inlaid
+            metals. Please feel free to contact us and we can talk about your
+            dream door. I am more than confident we can help.
           </p>
         </div>
       </article>

@@ -29,18 +29,12 @@ const GuaranteePage = ({ data, ...props }) => {
             Our Guarantee
           </h2>
           <p>
-            I have been a carpenter for over 35 years. I was trained by a German
-            craftsman that always taught me to take the time to do it correctly
-            the first time. Doing anything twice was a waist of time and
-            material.
-          </p>
-          <p>
-            At Dewey Door Doctor I demand quality work out of my fellow
-            craftsman. I do not set deadlines so that they have the time to do
-            it correctly the first time. With this policy and the use of
-            laminated stiles and rails, full 2” mortise and tennon joinery, we
-            at Dewey Door Doctor can guarantee our doors for life. Well, my
-            life; once the Lord brings me home, you are on your own. You can be
+            At Dewey Door Doctor, I demand quality work out of my fellow
+            craftsman. I do not set deadlines, so that they have the time to do
+            it correctly the first time. With this policy, the use of laminated
+            stiles/rails, and full 2” mortise and tennon joinery, we at Dewey
+            Door Doctor can guarantee our work for life. Well, actually, my
+            life**. When the Lord takes me home, you are on you own. You can be
             assured that I will personally stand behind any Dewey Door Doctor
             product.
           </p>
@@ -49,11 +43,12 @@ const GuaranteePage = ({ data, ...props }) => {
           </p>
 
           <p>
-            Please note: The care and maintenance of wood doors. Exterior wood
+            ** Please note the care and maintenance of wood doors: Exterior wood
             doors are a high maintenance item. In order to maintain your doors
             properly, all six surfaces of the door (top, bottom, sides, front &
-            back.) must be sealed as often as necessary to keep moisture out.
-            Failure to properly maintain your doors may void any warranty.
+            back) must be sealed as often as necessary to keep moisture out.
+            Failure to properly maintain your doors may void any warranty or
+            guarantee.
           </p>
         </div>
       </article>

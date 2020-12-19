@@ -24,8 +24,10 @@ const AboutPage = ({ data, ...props }) => {
       />
 
       <article className="post-content page-template no-image">
+        <div style={{ textAlign: "center" }}>
+          <img src="./Web/logo.png" height="150px" />
+        </div>
         <div className="post-content-body">
-          <h2>Contact Us</h2>
           <div style={{ textAlign: "center" }}>
             <h4>Phone Number:</h4>
             <a href="tel:+19283005921">+1 (928) 300-5921</a>
