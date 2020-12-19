@@ -28,20 +28,13 @@ const AboutPage = ({ data, ...props }) => {
           <h2>Contact Us</h2>
           <div style={{ textAlign: "center" }}>
             <h4>Phone Number:</h4>
-            928-224-8DOC <br />
-            928-224-8362
+            <a href="tel:+19283005921">+1 (928) 300-5921</a>
             <h4>Fax Number:</h4>
             928-277-4067
             <h4>Email Address:</h4>
-            <a href="mailto:weblead@deweydoordoctor.com" title="Email Us">
-              Email Us
-            </a>
-            <h4>Physical Address:</h4>
+            <a href="mailto:jim@deweydoordoctor.com">jim@deweydoordoctor.com</a>
+            <h4>Physical & Mailing Address:</h4>
             12025 E. Kachina Pl.
-            <br />
-            Dewey, AZ 86327
-            <h4>Mailing Address:</h4>
-            12025 East Kachina Place.
             <br />
             Dewey, AZ 86327
           </div>
