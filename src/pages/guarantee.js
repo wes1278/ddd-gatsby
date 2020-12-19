@@ -15,19 +15,18 @@ const GuaranteePage = ({ data, ...props }) => {
       <SEO
         title="Guarantee"
         keywords={[
-          `aboutus`,
+          `dewey door doctor`,
           `doors`,
           `custom doors`,
           `woodworking`,
           `lifetime guarantee`,
+          `door doctor`,
         ]}
       />
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
-          <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
-            Our Guarantee
-          </h2>
+          <h2>Our Guarantee</h2>
           <p>
             At Dewey Door Doctor, I demand quality work out of my fellow
             craftsman. I do not set deadlines, so that they have the time to do

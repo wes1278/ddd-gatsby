@@ -15,19 +15,19 @@ const AboutPage = ({ data, ...props }) => {
       <SEO
         title="About"
         keywords={[
-          `aboutus`,
+          `about us`,
+          `dewey door doctor`,
           `doors`,
           `custom doors`,
           `woodworking`,
           `lifetime guarantee`,
+          `door doctor`,
         ]}
       />
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
-          <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
-            About Us
-          </h2>
+          <h2>About Us</h2>
           <p>
             I have been a carpenter for over 35 years. I was trained by a German
             craftsman that always taught me to take the time to do things

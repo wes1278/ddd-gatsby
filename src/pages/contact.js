@@ -15,17 +15,19 @@ const AboutPage = ({ data, ...props }) => {
       <SEO
         title="Contact Us"
         keywords={[
-          `aboutus`,
+          `contact us`,
+          `dewey door doctor`,
           `doors`,
           `custom doors`,
           `woodworking`,
           `lifetime guarantee`,
+          `door doctor`,
         ]}
       />
 
       <article className="post-content page-template no-image">
         <div style={{ textAlign: "center" }}>
-          <img src="./Web/logo.png" height="150px" />
+          <img src="./logo.png" height="150px" alt="Logo" />
         </div>
         <div className="post-content-body">
           <div style={{ textAlign: "center" }}>
