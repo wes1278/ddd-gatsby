@@ -7,11 +7,11 @@ import SEO from "../components/seo"
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
 
-const GuaranteePage = ({ data }, location) => {
+const GuaranteePage = ({ data, ...props }) => {
   const siteTitle = data.site.siteMetadata.title
 
   return (
-    <Layout title={siteTitle}>
+    <Layout title={siteTitle} location={props.location}>
       <SEO
         title="Guarantee"
         keywords={[

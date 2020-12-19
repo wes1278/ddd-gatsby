@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 const Layout = props => {
-  const { title, children } = props
+  const { location, title, children } = props
   const [toggleNav, setToggleNav] = React.useState(false)
   return (
     <div className={`site-wrapper ${toggleNav ? `site-head-open` : ``}`}>
@@ -24,16 +24,42 @@ const Layout = props => {
               </div>
             </div>
           </a>
-          <nav id="swup" class="site-head-left">
+          <nav id="swup" className="site-head-left">
             <ul className="nav" role="menu">
-              <li className="nav-home nav-current" role="menuitem">
+              <li
+                className={
+                  `nav-home` + (location.pathname === `/` ? ` nav-current` : ``)
+                }
+                role="menuitem"
+              >
                 <Link to={`/`}>Home</Link>
               </li>
-              <li className="nav-about" role="menuitem">
+              <li
+                className={
+                  `nav-about` +
+                  (location.pathname === `/about` ? ` nav-current` : ``)
+                }
+                role="menuitem"
+              >
                 <Link to={`/about`}>About</Link>
               </li>
-              <li className="nav-guarantee" role="menuitem">
+              <li
+                className={
+                  `nav-guarantee` +
+                  (location.pathname === `/guarantee` ? ` nav-current` : ``)
+                }
+                role="menuitem"
+              >
                 <Link to={`/guarantee`}>Guarantee</Link>
+              </li>
+              <li
+                className={
+                  `nav-contact` +
+                  (location.pathname === `/contact` ? ` nav-current` : ``)
+                }
+                role="menuitem"
+              >
+                <Link to={`/contact`}>Contact</Link>
               </li>
             </ul>
           </nav>
@@ -42,34 +68,7 @@ const Layout = props => {
               {title}
             </Link>
           </div>
-          <div className="site-head-right">
-            {/* <div className="social-links">
-              <a
-                href="https://www.facebook.com"
-                title="Facebook"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Facebook
-              </a>
-              <a
-                href="https://twitter.com"
-                title="Twitter"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Twitter
-              </a>
-              <Link
-                to={`/rss.xml`}
-                title="RSS"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                RSS
-              </Link>
-            </div> */}
-          </div>
+          <div className="site-head-right" />
         </div>
       </header>
       <main id="site-main" className="site-main">

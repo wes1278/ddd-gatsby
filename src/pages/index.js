@@ -9,13 +9,13 @@ import PostCard from "../components/postCard"
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
 //TODO: switch to staticQuery, get rid of comments, remove unnecessary components, export as draft template
-const BlogIndex = ({ data }, location) => {
+const BlogIndex = ({ data, ...props }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
   let postCounter = 0
 
   return (
-    <Layout title={siteTitle}>
+    <Layout title={siteTitle} location={props.location}>
       <SEO
         title="Dewey Door Doctor"
         keywords={[
@@ -27,7 +27,6 @@ const BlogIndex = ({ data }, location) => {
           `lifetime guarantee`,
         ]}
       />
-      {/* <Bio /> */}
       {data.site.siteMetadata.description && (
         <header className="page-head">
           <h2 className="page-head-title">
@@ -89,7 +88,7 @@ export default props => (
   <StaticQuery
     query={indexQuery}
     render={data => (
-      <BlogIndex location={props.location} props data={data} {...props} />
+      <BlogIndex location={props.location} data={data} {...props} />
     )}
   />
 )

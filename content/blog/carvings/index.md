@@ -27,7 +27,7 @@ description: Here is a brief overview of what we can do here at Dewey Door Docto
 
 ![Knotty alder candy bowl carved to look like myself](./10-knotty-candy-bowl-full.jpg "Knotty alder candy bowl ![carved to look like myself")
 
-![Side view of knotty alder candy bowl carved to look like myself](./11-knotty-candy-bowl-side-full.jpg "Side ![view of knotty alder candy bowl carved to look like myself")
+![Side view of knotty alder candy bowl carved to look like myself](./11-knotty-candy-bowl-side-full.jpg "Side view of knotty alder candy bowl carved to look like myself")
 
 ![Blank for indian carving](./12-blank-indian-carving-full.jpg "Blank for indian carving")
 
