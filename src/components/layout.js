@@ -9,8 +9,8 @@ const Layout = props => {
       <header className="site-head">
         <div className="site-head-container">
           <a
-            className="nav-burger"
             href={`#`}
+            className="nav-burger"
             onClick={() => setToggleNav(!toggleNav)}
           >
             <div
@@ -32,8 +32,8 @@ const Layout = props => {
               <li className="nav-about" role="menuitem">
                 <Link to={`/about`}>About</Link>
               </li>
-              <li className="nav-elements" role="menuitem">
-                <Link to={`/elements`}>Elements</Link>
+              <li className="nav-guarantee" role="menuitem">
+                <Link to={`/guarantee`}>Guarantee</Link>
               </li>
             </ul>
           </nav>
@@ -43,7 +43,7 @@ const Layout = props => {
             </Link>
           </div>
           <div className="site-head-right">
-            <div className="social-links">
+            {/* <div className="social-links">
               <a
                 href="https://www.facebook.com"
                 title="Facebook"
@@ -68,7 +68,7 @@ const Layout = props => {
               >
                 RSS
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </header>

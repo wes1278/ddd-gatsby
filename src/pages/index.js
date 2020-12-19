@@ -17,8 +17,15 @@ const BlogIndex = ({ data }, location) => {
   return (
     <Layout title={siteTitle}>
       <SEO
-        title="All posts"
-        keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+        title="Dewey Door Doctor"
+        keywords={[
+          `doors`,
+          `gates`,
+          `carving`,
+          `custom doors`,
+          `woodworking`,
+          `lifetime guarantee`,
+        ]}
       />
       {/* <Bio /> */}
       {data.site.siteMetadata.description && (

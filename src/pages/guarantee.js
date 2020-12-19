@@ -7,13 +7,13 @@ import SEO from "../components/seo"
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
 
-const AboutPage = ({ data }, location) => {
+const GuaranteePage = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
 
   return (
     <Layout title={siteTitle}>
       <SEO
-        title="About"
+        title="Guarantee"
         keywords={[
           `aboutus`,
           `doors`,
@@ -26,29 +26,34 @@ const AboutPage = ({ data }, location) => {
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
-            About Us
+            Our Guarantee
           </h2>
+          <p>
+            I have been a carpenter for over 35 years. I was trained by a German
+            craftsman that always taught me to take the time to do it correctly
+            the first time. Doing anything twice was a waist of time and
+            material.
+          </p>
           <p>
             At Dewey Door Doctor I demand quality work out of my fellow
             craftsman. I do not set deadlines so that they have the time to do
             it correctly the first time. With this policy and the use of
             laminated stiles and rails, full 2” mortise and tennon joinery, we
-            at Dewey Door Doctor can guarantee our doors for life. When the Lord
-            takes me home, you're on your own. You can be assured that I will
-            personally stand behind any Dewey Door Doctor product.
+            at Dewey Door Doctor can guarantee our doors for life. Well, my
+            life; once the Lord brings me home, you are on your own. You can be
+            assured that I will personally stand behind any Dewey Door Doctor
+            product.
           </p>
+          <p style={{ textAlign: "right", color: "#42280E" }}>
+            Thank you, Jim Weingartner
+          </p>
+
           <p>
-            Over the years, we have grown into a full service custom shop that
-            loves to help individual clients fulfill their dreams. Our specialty
-            is completing the job that no one else thinks can be done. Ranging
-            from 7' wide to 13' tall custom doors, we love to exceed your
-            expectations when it comes to building your dream entry-way! We also
-            offer a full range of custom carving, stain glass and inlaid
-            metals.We build it the right way the first time and that is why we
-            guarantee our work for life. Well, actually, my life. When the Lord
-            takes me home, you are on you own.Please feel free to contact me and
-            we can talk about your dream door. I am more than confident we can
-            help.
+            Please note: The care and maintenance of wood doors. Exterior wood
+            doors are a high maintenance item. In order to maintain your doors
+            properly, all six surfaces of the door (top, bottom, sides, front &
+            back.) must be sealed as often as necessary to keep moisture out.
+            Failure to properly maintain your doors may void any warranty.
           </p>
         </div>
       </article>
@@ -79,7 +84,7 @@ export default props => (
   <StaticQuery
     query={indexQuery}
     render={data => (
-      <AboutPage location={props.location} data={data} {...props} />
+      <GuaranteePage location={props.location} data={data} {...props} />
     )}
   />
 )
